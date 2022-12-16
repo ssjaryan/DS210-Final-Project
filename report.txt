@@ -1,0 +1,53 @@
+{ Explanation of my Program }
+
+[ Main Function ]
+
+I create a struct called Graph that is an undirected graph data structure. The graph implements using a HashMap where the keys are nodes represented as 
+Strings and the values are sets of neighboring nodes represented as HashSets. The Graph struct has methods for adding nodes and edges, getting the 
+number of nodes and edges in the graph, calculating the average degree of the nodes, getting the degree distribution (i.e., the number of nodes 
+with a given degree), finding the diameter of the graph (i.e., the longest shortest path between any two nodes in the graph), and calculating the 
+average path length between all pairs of nodes in the graph. The main function at the end of the code reads in a list of actors and movies from a 
+file and uses this information to construct a graph of the actors and the movies they have appeared in. 
+
+I use BFS in the get_diameter and get_average_path_length methods. In the get_diameter method, BFS is used to find the shortest path between each pair 
+of nodes in the graph.
+
+In the get_average_path_length method, I used BFS in a similar way to find the shortest path between each pair of nodes in the graph. The method sums 
+the depth of each node visited and increments a count for the number of nodes visited. The method then returns the average path length as the sum of the depths divided by the count.
+
+
+[ Extra Function ]
+
+In this program the Graph struct represents a directed graph with nodes that have a string field actors_movies and a vector of integers num_nodes representing 
+the indices of the neighbors of the node in the nodes vector of the Graph struct. The init method reads in a list of actors and movies from a file and uses this 
+information to construct a graph of the actors and the movies they have appeared in. To be clear this program was my first implementation but it was too similar 
+to another one and I tried implementing it using a different logic but I ended up with the program labeled Main function. The method reads each line of the file 
+and splits it on the semicolon character to separate the actor and movie nodes. It then searches the nodes vector for nodes with the same actors_movies value 
+as the actor and movie nodes read from the file. If a node is not found, a new node is created and added to the nodes vector. If a node is found, its num_nodes 
+field is updated to include the index of the other node. This creates the directed edges in the graph, with the actor node as the source and the movie node as the destination.
+
+The shortest_path method uses BFS to find the shortest path between two nodes (actors) in the graph. The method starts at the source node and uses a queue to visit its 
+neighbors in a breadth-first fashion. The method keeps track of the parent of each node visited and updates the parent field of each node as it is visited. When the 
+end node is reached the method follows the chain of parents back to the start node to reconstruct the shortest path. The method prints the shortest path 
+as a list of the actors_movies values of the nodes in the path.
+
+
+{ Results of The Program }
+
+[ Main Function ]
+
+    Yes the result of my program is what I was expecting it to output. It tells me the minimum degree of distribution between all actors present in the data file. 
+
+[ Extra Function ]
+
+    The result of this function was where you enter two actors and it outputs the shortest path between them.
+
+
+
+{ Data Set }
+
+I chose my data set because this was the only data set I could find for what I needed. But it was the perfect 
+data set for me as it had actors name and their corresponding movie which was all I needed and it saved me time. 
+I did hope to implement this for nba players but there were no data sets I found in time that were usable. 
+
+I apologize for the low quality of my report I got very sick suddenly and worked on this with a 102.8 fever.
