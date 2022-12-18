@@ -1,0 +1,16 @@
+// Below are links to all the refrences I used to get a better understadning of how to go about my project and understanding the algorithms.
+
+https://github.com/TheAlgorithms/Rust/blob/master/src/graph/breadth_first_search.rs
+https://codereview.stackexchange.com/questions/202677/dijkstras-algorithm-in-rust
+https://github.com/easbar/fast_paths
+https://www.reddit.com/r/rust/comments/319dfg/tutorial_on_graphs_in_rust/
+https://depth-first.com/articles/2020/02/03/graphs-in-rust-an-introduction-to-petgraph/
+https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/
+https://snap.stanford.edu/data/
+https://github.com/TheAlgorithms/Rust
+https://docs.google.com/document/d/131WOuLG5hcP3SdBW4vimYaJZtUZD4m1bU9fJL40vlNM/edit#
+https://www.techtarget.com/whatis/definition/six-degrees-of-separation
+https://programming-idioms.org/idiom/128/breadth-first-traversing-of-a-tree/2490/rust
+https://www.geeksforgeeks.org/page-rank-algorithm-implementation/
+https://github.com/safakkbilici/Six-Degrees-of-Kevin-Bacon
+https://dadoverflow.com/2019/09/29/visualizing-six-degrees-of-kevin-bacon/
