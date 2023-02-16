@@ -49,5 +49,3 @@ as a list of the actors_movies values of the nodes in the path.
 I chose my data set because this was the only data set I could find for what I needed. But it was the perfect 
 data set for me as it had actors name and their corresponding movie which was all I needed and it saved me time. 
 I did hope to implement this for nba players but there were no data sets I found in time that were usable. 
-
-I apologize for the low quality of my report I got very sick suddenly and worked on this with a 102.8 fever.
