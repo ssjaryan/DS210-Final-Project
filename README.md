@@ -1,7 +1,7 @@
 # DS210-Final-Project
 
 
-# Actors and Movies Graph Analysis - A Personal Project
+# Actors and Movies Graph Analysis - Six Degrees of Separation
 
 
 ## Why This Project
@@ -10,9 +10,8 @@ is a powerful tool for modeling relationships between objects, and this project 
 Additionally, the project provided an opportunity to explore different graph algorithms and understand their applications in real-world scenarios.
 
 ## Dataset
-The dataset used in this project consists of a list of actors and movies they have appeared in. 
-The data was obtained from a file and was used to construct a graph of the relationships between actors and movies. 
-The dataset was chosen as it provided a good starting point for analyzing relationships between actors and movies.
+- The dataset used in this project consists of a list of actors and movies they have appeared in from IMDB. 
+- The dataset was chosen as it provided a good starting point for analyzing relationships between two data points and implements six degrees of separation.
 
 
 ## Overview
