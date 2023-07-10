@@ -1,6 +1,5 @@
 # DS210-Final-Project
 
-Certainly, here's a revised version of the README.MD that highlights the `Extra Function` as a separate implementation method:
 
 # Actors and Movies Graph Analysis - A Personal Project
 
