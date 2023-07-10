@@ -3,6 +3,18 @@
 
 # Actors and Movies Graph Analysis - A Personal Project
 
+
+## Why This Project
+This project was undertaken to explore the use of graph data structures in analyzing relationships between actors and movies. The graph data structure 
+is a powerful tool for modeling relationships between objects, and this project provided an opportunity to apply graph analysis techniques to a real-world problem. 
+Additionally, the project provided an opportunity to explore different graph algorithms and understand their applications in real-world scenarios.
+
+## Dataset
+The dataset used in this project consists of a list of actors and movies they have appeared in. 
+The data was obtained from a file and was used to construct a graph of the relationships between actors and movies. 
+The dataset was chosen as it provided a good starting point for analyzing relationships between actors and movies.
+
+
 ## Overview
 This project explores the use of graph data structures in analyzing relationships between actors and movies they have appeared in. 
 The program has two Implementations: `main.rs` and `extra_fn.rs`. 
@@ -27,15 +39,6 @@ and uses a queue to visit its neighbors in a breadth-first fashion. The method k
 parent field of each node as it is visited. When the end node is reached, the method follows the chain of parents back to the start node to 
 reconstruct the shortest path. The method outputs the shortest path as a list of the actors_movies values of the nodes in the path.
 
-## Dataset
-The dataset used in this project consists of a list of actors and movies they have appeared in. 
-The data was obtained from a file and was used to construct a graph of the relationships between actors and movies. 
-The dataset was chosen as it provided a good starting point for analyzing relationships between actors and movies.
-
-## Why This Project
-This project was undertaken to explore the use of graph data structures in analyzing relationships between actors and movies. The graph data structure 
-is a powerful tool for modeling relationships between objects, and this project provided an opportunity to apply graph analysis techniques to a real-world problem. 
-Additionally, the project provided an opportunity to explore different graph algorithms and understand their applications in real-world scenarios.
 
 ## Results
 - The `Main Function` successfully outputted the minimum degree of distribution between all actors present in the data file, which was the expected result. 
